@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using static System.Net.WebRequestMethods;
 
-namespace Valley_Prot
+namespace Valley
 {
     public class Game1 : Game
     {
@@ -42,12 +42,12 @@ namespace Valley_Prot
             tileType = new List<Tile>();
 
             Texture2D tileZeroTex = Content.Load<Texture2D>("map/map-textures/0");
-            Tile tileZero = new Tile(0, tileZeroTex);
+            //Tile tileZero = new Tile(0, tileZeroTex);
             Texture2D tileOneTex = Content.Load<Texture2D>("map/map-textures/1");
-            Tile tileOne = new Tile(1, tileOneTex);
+            //Tile tileOne = new Tile(1, tileOneTex);
 
-            tileType.Add(tileZero);
-            tileType.Add(tileOne);
+            //tileType.Add(tileZero);
+            //tileType.Add(tileOne);
 
         }
 

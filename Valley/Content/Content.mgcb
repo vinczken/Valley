@@ -10,6 +10,48 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:..\bin\Debug\net6.0\Valley.dll
 
 #---------------------------------- Content ---------------------------------#
+
+#begin font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:font.spritefont
+
+#begin map/map-textures/0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:map/map-textures/0.png
+
+#begin map/map-textures/1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:map/map-textures/1.png
+
+#begin map/map.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:map/map.xml
+
+#begin map/tile.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:map/tile.xml
 

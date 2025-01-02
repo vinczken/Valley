@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="Valley.Tile[]">
+    <Item>
+	  <Id>0</Id>
+	  <Texture>0.png</Texture>
+	</Item>
+  </Asset>
+</XnaContent>
